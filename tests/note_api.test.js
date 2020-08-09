@@ -7,7 +7,6 @@ const api = supertest(app)
 
 const Note = require('../models/note')
 const User = require('../models/user')
-const usersRouter = require('../controllers/users')
 
 describe('when there is initially some notes saved', () => {
     beforeEach(async () => {
